@@ -1,0 +1,1280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="11" passed="11">
+  <reporter-output>
+    <line>
+      <![CDATA[Test Application loaded successfully]]>
+    </line>
+    <line>
+      <![CDATA[User details are accepted in system includes firstname,lastname,phone,email,address,state,country ]]>
+    </line>
+    <line>
+      <![CDATA[password and confirm password entered are matching correctly]]>
+    </line>
+    <line>
+      <![CDATA[registration is successful]]>
+    </line>
+    <line>
+      <![CDATA[user id successfully registered =  yogesh9]]>
+    </line>
+    <line>
+      <![CDATA[Test for checking sign-on for existing customer]]>
+    </line>
+    <line>
+      <![CDATA[Test for checking Flight Departing validation-roundtrip]]>
+    </line>
+    <line>
+      <![CDATA[Test for checking Flight arriving validation-roundtrip]]>
+    </line>
+    <line>
+      <![CDATA[Test for selecting Airline and service class validations-roundtrip]]>
+    </line>
+    <line>
+      <![CDATA[Test for selecting Passenger billing during flight booking-roundtrip]]>
+    </line>
+    <line>
+      <![CDATA[Flight booking is successful for Passenger yogeshk]]>
+    </line>
+  </reporter-output>
+  <suite name="Home Practice" duration-ms="114048" started-at="2017-03-25T09:57:18Z" finished-at="2017-03-25T09:59:12Z">
+    <groups>
+    </groups>
+    <test name="Validation of Home Page " duration-ms="36381" started-at="2017-03-25T09:57:18Z" finished-at="2017-03-25T09:57:54Z">
+      <class name="testCases.loginclass">
+        <test-method status="PASS" signature="BeforeTest(java.lang.String, org.testng.ITestContext)[pri:0, instance:testCases.loginclass@3a82f6ef]" name="BeforeTest" is-config="true" duration-ms="19426" started-at="2017-03-25T15:27:18Z" finished-at="2017-03-25T15:27:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@5674e1f2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeTest -->
+        <test-method status="PASS" signature="test1(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.loginclass@3a82f6ef]" name="test1" duration-ms="13" started-at="2017-03-25T15:27:38Z" data-provider="xlsData" finished-at="2017-03-25T15:27:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[yogesh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[k]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9.960889566E9]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[yogesh.k@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[test111]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[test112]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[pune]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[maharashtra]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[411034.0]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[yogesh9]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[test334]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[test334]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="screenCapture()[pri:0, instance:testCases.loginclass@3a82f6ef]" name="screenCapture" is-config="true" duration-ms="1013" started-at="2017-03-25T15:27:38Z" finished-at="2017-03-25T15:27:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenCapture -->
+        <test-method status="PASS" signature="readproperties(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:testCases.loginclass@3a82f6ef]" name="readproperties" duration-ms="16" started-at="2017-03-25T15:27:39Z" data-provider="xlsData" finished-at="2017-03-25T15:27:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[yogesh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[k]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9.960889566E9]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[yogesh.k@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[test111]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[test112]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[pune]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[maharashtra]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[411034.0]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[yogesh9]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[test334]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[test334]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readproperties -->
+        <test-method status="PASS" signature="screenCapture()[pri:0, instance:testCases.loginclass@3a82f6ef]" name="screenCapture" is-config="true" duration-ms="121" started-at="2017-03-25T15:27:39Z" finished-at="2017-03-25T15:27:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenCapture -->
+        <test-method status="PASS" signature="opensite(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:testCases.loginclass@3a82f6ef]" name="opensite" duration-ms="11507" started-at="2017-03-25T15:27:39Z" data-provider="xlsData" finished-at="2017-03-25T15:27:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[yogesh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[k]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9.960889566E9]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[yogesh.k@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[test111]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[test112]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[pune]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[maharashtra]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[411034.0]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[yogesh9]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[test334]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[test334]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Application loaded successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- opensite -->
+        <test-method status="PASS" signature="screenCapture()[pri:0, instance:testCases.loginclass@3a82f6ef]" name="screenCapture" is-config="true" duration-ms="222" started-at="2017-03-25T15:27:50Z" finished-at="2017-03-25T15:27:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenCapture -->
+        <test-method status="PASS" signature="AfterTest()[pri:0, instance:testCases.loginclass@3a82f6ef]" name="AfterTest" is-config="true" duration-ms="3948" started-at="2017-03-25T15:27:50Z" finished-at="2017-03-25T15:27:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterTest -->
+      </class> <!-- testCases.loginclass -->
+    </test> <!-- Validation of Home Page  -->
+    <test name="Registration of user " duration-ms="27173" started-at="2017-03-25T09:57:55Z" finished-at="2017-03-25T09:58:22Z">
+      <class name="testCases.Register">
+        <test-method status="PASS" signature="BeforeTest(java.lang.String, org.testng.ITestContext)[pri:0, instance:testCases.Register@724af044]" name="BeforeTest" is-config="true" duration-ms="4713" started-at="2017-03-25T15:27:55Z" finished-at="2017-03-25T15:27:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@79c7532f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeTest -->
+        <test-method status="PASS" signature="registration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.Register@724af044]" name="registration" duration-ms="15776" started-at="2017-03-25T15:27:59Z" data-provider="xlsData" finished-at="2017-03-25T15:28:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[yogesh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[k]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9.960889566E9]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[yogesh.k@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[test111]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[test112]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[pune]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[maharashtra]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[411034.0]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[yogesh9]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[test334]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[test334]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[User details are accepted in system includes firstname,lastname,phone,email,address,state,country ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- registration -->
+        <test-method status="PASS" signature="credentialvalidation(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:testCases.Register@724af044]" name="credentialvalidation" duration-ms="5682" started-at="2017-03-25T15:28:15Z" data-provider="xlsData" finished-at="2017-03-25T15:28:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[yogesh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[k]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9.960889566E9]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[yogesh.k@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[test111]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[test112]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[pune]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[maharashtra]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[411034.0]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[yogesh9]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[test334]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[test334]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[password and confirm password entered are matching correctly]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- credentialvalidation -->
+        <test-method status="PASS" signature="checkuseridafterregistration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:testCases.Register@724af044]" name="checkuseridafterregistration" duration-ms="143" started-at="2017-03-25T15:28:21Z" data-provider="xlsData" finished-at="2017-03-25T15:28:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[yogesh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[k]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9.960889566E9]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[yogesh.k@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[test111]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[test112]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[pune]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[maharashtra]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[411034.0]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[yogesh9]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[test334]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[test334]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[registration is successful]]>
+            </line>
+            <line>
+              <![CDATA[user id successfully registered =  yogesh9]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkuseridafterregistration -->
+        <test-method status="PASS" signature="AfterTest()[pri:0, instance:testCases.Register@724af044]" name="AfterTest" is-config="true" duration-ms="840" started-at="2017-03-25T15:28:21Z" finished-at="2017-03-25T15:28:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterTest -->
+      </class> <!-- testCases.Register -->
+    </test> <!-- Registration of user  -->
+    <test name="Flight booking of user " duration-ms="50342" started-at="2017-03-25T09:58:22Z" finished-at="2017-03-25T09:59:12Z">
+      <class name="testCases.Flightbooking">
+        <test-method status="PASS" signature="BeforeTest(java.lang.String, org.testng.ITestContext)[pri:0, instance:testCases.Flightbooking@4b9e13df]" name="BeforeTest" is-config="true" duration-ms="4061" started-at="2017-03-25T15:28:22Z" finished-at="2017-03-25T15:28:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@2a448449]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeTest -->
+        <test-method status="PASS" signature="Flightsearch1(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.Flightbooking@4b9e13df]" name="Flightsearch1" duration-ms="18683" started-at="2017-03-25T15:28:26Z" data-provider="xlsData" finished-at="2017-03-25T15:28:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[London]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Paris]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Business Class]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Unified Airlines]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Blue Skies Airlines 360]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Blue Skies Airlines 631]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[yogesh]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[k]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[HNML]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[BA]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[01]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[2010]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[yogesh]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[d]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[k]]>
+              </value>
+            </param>
+            <param index="21">
+              <value>
+                <![CDATA[test1111]]>
+              </value>
+            </param>
+            <param index="22">
+              <value>
+                <![CDATA[test2222]]>
+              </value>
+            </param>
+            <param index="23">
+              <value>
+                <![CDATA[mumbai]]>
+              </value>
+            </param>
+            <param index="24">
+              <value>
+                <![CDATA[ms]]>
+              </value>
+            </param>
+            <param index="25">
+              <value>
+                <![CDATA[411002]]>
+              </value>
+            </param>
+            <param index="26">
+              <value>
+                <![CDATA[92]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test for checking sign-on for existing customer]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Flightsearch1 -->
+        <test-method status="PASS" signature="screenCapture()[pri:0, instance:testCases.Flightbooking@4b9e13df]" name="screenCapture" is-config="true" duration-ms="208" started-at="2017-03-25T15:28:45Z" finished-at="2017-03-25T15:28:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenCapture -->
+        <test-method status="PASS" signature="Flightsearch2(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:testCases.Flightbooking@4b9e13df]" name="Flightsearch2" duration-ms="2784" started-at="2017-03-25T15:28:45Z" data-provider="xlsData" finished-at="2017-03-25T15:28:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[London]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Paris]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Business Class]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Unified Airlines]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Blue Skies Airlines 360]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Blue Skies Airlines 631]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[yogesh]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[k]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[HNML]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[BA]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[01]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[2010]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[yogesh]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[d]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[k]]>
+              </value>
+            </param>
+            <param index="21">
+              <value>
+                <![CDATA[test1111]]>
+              </value>
+            </param>
+            <param index="22">
+              <value>
+                <![CDATA[test2222]]>
+              </value>
+            </param>
+            <param index="23">
+              <value>
+                <![CDATA[mumbai]]>
+              </value>
+            </param>
+            <param index="24">
+              <value>
+                <![CDATA[ms]]>
+              </value>
+            </param>
+            <param index="25">
+              <value>
+                <![CDATA[411002]]>
+              </value>
+            </param>
+            <param index="26">
+              <value>
+                <![CDATA[92]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test for checking Flight Departing validation-roundtrip]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Flightsearch2 -->
+        <test-method status="PASS" signature="screenCapture()[pri:0, instance:testCases.Flightbooking@4b9e13df]" name="screenCapture" is-config="true" duration-ms="184" started-at="2017-03-25T15:28:48Z" finished-at="2017-03-25T15:28:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenCapture -->
+        <test-method status="PASS" signature="Flightsearch3(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:testCases.Flightbooking@4b9e13df]" name="Flightsearch3" duration-ms="526" started-at="2017-03-25T15:28:48Z" data-provider="xlsData" finished-at="2017-03-25T15:28:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[London]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Paris]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Business Class]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Unified Airlines]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Blue Skies Airlines 360]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Blue Skies Airlines 631]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[yogesh]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[k]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[HNML]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[BA]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[01]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[2010]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[yogesh]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[d]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[k]]>
+              </value>
+            </param>
+            <param index="21">
+              <value>
+                <![CDATA[test1111]]>
+              </value>
+            </param>
+            <param index="22">
+              <value>
+                <![CDATA[test2222]]>
+              </value>
+            </param>
+            <param index="23">
+              <value>
+                <![CDATA[mumbai]]>
+              </value>
+            </param>
+            <param index="24">
+              <value>
+                <![CDATA[ms]]>
+              </value>
+            </param>
+            <param index="25">
+              <value>
+                <![CDATA[411002]]>
+              </value>
+            </param>
+            <param index="26">
+              <value>
+                <![CDATA[92]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test for checking Flight arriving validation-roundtrip]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Flightsearch3 -->
+        <test-method status="PASS" signature="screenCapture()[pri:0, instance:testCases.Flightbooking@4b9e13df]" name="screenCapture" is-config="true" duration-ms="165" started-at="2017-03-25T15:28:48Z" finished-at="2017-03-25T15:28:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenCapture -->
+        <test-method status="PASS" signature="Flightsearch4(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:testCases.Flightbooking@4b9e13df]" name="Flightsearch4" duration-ms="5935" started-at="2017-03-25T15:28:48Z" data-provider="xlsData" finished-at="2017-03-25T15:28:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[London]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Paris]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Business Class]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Unified Airlines]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Blue Skies Airlines 360]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Blue Skies Airlines 631]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[yogesh]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[k]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[HNML]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[BA]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[01]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[2010]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[yogesh]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[d]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[k]]>
+              </value>
+            </param>
+            <param index="21">
+              <value>
+                <![CDATA[test1111]]>
+              </value>
+            </param>
+            <param index="22">
+              <value>
+                <![CDATA[test2222]]>
+              </value>
+            </param>
+            <param index="23">
+              <value>
+                <![CDATA[mumbai]]>
+              </value>
+            </param>
+            <param index="24">
+              <value>
+                <![CDATA[ms]]>
+              </value>
+            </param>
+            <param index="25">
+              <value>
+                <![CDATA[411002]]>
+              </value>
+            </param>
+            <param index="26">
+              <value>
+                <![CDATA[92]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test for selecting Airline and service class validations-roundtrip]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Flightsearch4 -->
+        <test-method status="PASS" signature="screenCapture()[pri:0, instance:testCases.Flightbooking@4b9e13df]" name="screenCapture" is-config="true" duration-ms="167" started-at="2017-03-25T15:28:54Z" finished-at="2017-03-25T15:28:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenCapture -->
+        <test-method status="PASS" signature="Flightsearch5(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:testCases.Flightbooking@4b9e13df]" name="Flightsearch5" duration-ms="16601" started-at="2017-03-25T15:28:54Z" data-provider="xlsData" finished-at="2017-03-25T15:29:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[London]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Paris]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Business Class]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Unified Airlines]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Blue Skies Airlines 360]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Blue Skies Airlines 631]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[yogesh]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[k]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[HNML]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[BA]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[01]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[2010]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[yogesh]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[d]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[k]]>
+              </value>
+            </param>
+            <param index="21">
+              <value>
+                <![CDATA[test1111]]>
+              </value>
+            </param>
+            <param index="22">
+              <value>
+                <![CDATA[test2222]]>
+              </value>
+            </param>
+            <param index="23">
+              <value>
+                <![CDATA[mumbai]]>
+              </value>
+            </param>
+            <param index="24">
+              <value>
+                <![CDATA[ms]]>
+              </value>
+            </param>
+            <param index="25">
+              <value>
+                <![CDATA[411002]]>
+              </value>
+            </param>
+            <param index="26">
+              <value>
+                <![CDATA[92]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test for selecting Passenger billing during flight booking-roundtrip]]>
+            </line>
+            <line>
+              <![CDATA[Flight booking is successful for Passenger yogeshk]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Flightsearch5 -->
+        <test-method status="PASS" signature="screenCapture()[pri:0, instance:testCases.Flightbooking@4b9e13df]" name="screenCapture" is-config="true" duration-ms="206" started-at="2017-03-25T15:29:11Z" finished-at="2017-03-25T15:29:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenCapture -->
+        <test-method status="PASS" signature="AfterTest()[pri:0, instance:testCases.Flightbooking@4b9e13df]" name="AfterTest" is-config="true" duration-ms="800" started-at="2017-03-25T15:29:11Z" finished-at="2017-03-25T15:29:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterTest -->
+      </class> <!-- testCases.Flightbooking -->
+    </test> <!-- Flight booking of user  -->
+  </suite> <!-- Home Practice -->
+</testng-results>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<suite name="Home Practice">
+    <!--  Chrome  -->
+    
+    <test name= "Validation of Home Page " preserve-order="true">
+	<parameter name="browser" value="Chrome" />
+	<classes>
+	<class name="testCases.loginclass"/>
+	</classes>
+	</test> 	
+	<test name= "Registration of user " preserve-order="true">
+	<parameter name="browser" value="Chrome" />
+	<classes>
+	<class name="testCases.Register"/>
+	</classes>
+	</test> 	
+	<test name= "Flight booking of user " preserve-order="true">
+	<parameter name="browser" value="Chrome" />
+	<classes>
+	<class name="testCases.Flightbooking"/>
+	</classes>
+	</test> 
+</suite>	

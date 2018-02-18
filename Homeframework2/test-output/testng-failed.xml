@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Home Practice]">
+  <test name="Validation of Home Page (failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="testCases.loginclass">
+        <methods>
+          <include name="test1"/>
+          <include name="AfterTest"/>
+          <include name="opensite"/>
+          <include name="BeforeTest"/>
+          <include name="readproperties"/>
+          <include name="screenCapture"/>
+        </methods>
+      </class> <!-- testCases.loginclass -->
+    </classes>
+  </test> <!-- Validation of Home Page (failed) -->
+  <test name="Registration of user (failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="testCases.Register">
+        <methods>
+          <include name="BeforeTest"/>
+          <include name="checkuseridafterregistration"/>
+          <include name="registration"/>
+          <include name="AfterTest"/>
+          <include name="credentialvalidation"/>
+        </methods>
+      </class> <!-- testCases.Register -->
+    </classes>
+  </test> <!-- Registration of user (failed) -->
+  <test name="Flight booking of user (failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="testCases.Flightbooking">
+        <methods>
+          <include name="Flightsearch3"/>
+          <include name="screenCapture"/>
+          <include name="Flightsearch1"/>
+          <include name="AfterTest"/>
+          <include name="Flightsearch2"/>
+          <include name="BeforeTest"/>
+          <include name="Flightsearch4"/>
+          <include name="Flightsearch5"/>
+        </methods>
+      </class> <!-- testCases.Flightbooking -->
+    </classes>
+  </test> <!-- Flight booking of user (failed) -->
+</suite> <!-- Failed suite [Home Practice] -->
